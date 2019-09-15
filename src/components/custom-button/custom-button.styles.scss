@@ -13,6 +13,8 @@
   font-weight: bolder;
   border: none;
   cursor: pointer;
+  justify-content: center;
+  display: flex;
 
   &:hover {
     background-color: white;

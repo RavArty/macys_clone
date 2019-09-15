@@ -1,44 +1,44 @@
 const SHOP_DATA = [
   {
     id: 1,
-    title: 'Bags',
-    routeName: 'bags',
+    title: 'Hats',
+    routeName: 'hats',
     items: [
       {
         id: 1,
-        name: 'The North Pace',
-        imageUrl: 'https://i.ibb.co/10mcPGT/bags-men-north-2.jpg',
-        price: 130
+        name: 'Brown Brim',
+        imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
+        price: 25
       },
       {
         id: 2,
-        name: 'Steve Madden',
-        imageUrl: 'https://i.ibb.co/L0qL4Vb/bags-men-steven-3.jpg',
-        price: 180
+        name: 'Blue Beanie',
+        imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
+        price: 18
       },
       {
         id: 3,
-        name: 'Tommy Hilfiger',
-        imageUrl: 'https://i.ibb.co/dtfk98G/bags-men-tommy-1.jpg',
-        price: 250
+        name: 'Brown Cowboy',
+        imageUrl: 'https://i.ibb.co/QdJwgmp/brown-cowboy.png',
+        price: 35
       },
       {
         id: 4,
-        name: 'Fjallraven Kanken',
-        imageUrl: 'https://i.ibb.co/ftSMPwC/bags-women-kanken-3.jpg',
-        price: 160
+        name: 'Grey Brim',
+        imageUrl: 'https://i.ibb.co/RjBLWxB/grey-brim.png',
+        price: 25
       },
       {
         id: 5,
-        name: 'Michael Kors Blue',
-        imageUrl: 'https://i.ibb.co/b7qhFf1/bags-women-kors-1.jpg',
-        price: 230
+        name: 'Green Beanie',
+        imageUrl: 'https://i.ibb.co/YTjW3vF/green-beanie.png',
+        price: 18
       },
       {
         id: 6,
-        name: 'Michael Kors White',
-        imageUrl: 'https://i.ibb.co/GVsYQpQ/bags-women-kors2-2.jpg',
-        price: 250
+        name: 'Palm Tree Cap',
+        imageUrl: 'https://i.ibb.co/rKBDvJX/palm-tree-cap.png',
+        price: 14
       },
       {
         id: 7,
