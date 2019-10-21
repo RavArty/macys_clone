@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect } from 'react';
 import { Route } from 'react-router-dom';
 import { connect } from 'react-redux';
 //import { createStructuredSelector } from 'reselect'
@@ -17,20 +17,12 @@ import CollectionsOverviewContainer from '../../components/collections-overview/
 //const CollectionPageWithSpinner = WithSpinner(CollectionPage);
 import CollectionPageContainer from '../collection/collection.container';
 
-class ShopPage extends React.Component {
-
-  componentDidMount() {
-      // const { fetchCollectionsStartAsync } = this.props;
+const ShopPage = ({match, fetchCollectionsStart}) => {
   
-      // fetchCollectionsStartAsync();
-      const { fetchCollectionsStart } = this.props;
+  useEffect(() => {
+    fetchCollectionsStart()
+  }, [fetchCollectionsStart])
 
-      fetchCollectionsStart();
-  }
-
-  render(){
-    const {match, isCollectionFetching, selectIsCollectionsLoaded } = this.props
- //   const { loading } = this.state;
     return(
       <div className='shop-page'>
       <Route
@@ -44,7 +36,6 @@ class ShopPage extends React.Component {
           />
   </div>
     )
-  }
   
 }
 
