@@ -19,7 +19,7 @@
     "redux-saga": "^1.1.1",
     "redux-thunk": "^2.3.0",
     "reselect": "^4.0.0",
-    "set-value": "2.0.1",
+    "set-value": "4.0.1",
     "styled-components": "^4.4.0"
   },
   "scripts": {
